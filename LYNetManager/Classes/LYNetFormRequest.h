@@ -8,8 +8,6 @@
 
 #import "LYNetManager.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface LYNetFormRequest : LYNetManager
 
 + (LYURLSessionTask *)ly_formGet:(NSString *)url parameters:(NSDictionary *)params headers:(NSDictionary *)headers successBlock:(LYResponseSuccessBlock)successBlock
@@ -20,4 +18,3 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END

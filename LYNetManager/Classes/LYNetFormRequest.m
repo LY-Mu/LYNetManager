@@ -14,7 +14,7 @@
       failureBlock:(LYResponseFailBlock)failureBlock
 {
     LYDataEntity *entity = [[LYDataEntity alloc] init];
-    entity.urlString = [LYNetManagerShare getHttpUrl:url];
+    entity.urlString = url;
     entity.parameters = params;
     entity.headers = headers;
     [LYNetManager ly_setHallWithForm_urlencoded];
@@ -25,20 +25,12 @@
        failureBlock:(LYResponseFailBlock)failureBlock
 {
     LYDataEntity *entity = [[LYDataEntity alloc] init];
-    entity.urlString = [LYNetManagerShare getHttpUrl:url];
+    entity.urlString = url;
     entity.parameters = params;
     entity.headers = headers;
     
     [LYNetManager ly_setHallWithForm_urlencoded];
     return [LYNetManager ly_request_POSTWithEntity:entity successBlock:successBlock failureBlock:failureBlock progressBlock:nil];
-}
-
-- (NSString *)getHttpUrl:(NSString *)url
-{
-    if ([url hasPrefix:@"http"]) {
-        return url;
-    }
-    return [NSString stringWithFormat:@"%@/%@",self.formBaseUrl,url];
 }
 
 @end

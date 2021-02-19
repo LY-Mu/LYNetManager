@@ -862,7 +862,7 @@ static NSMutableArray *tasks;
     [LYNetManager ly_setValue:@"*/*" forHTTPHeaderKey:@"Accept"];
     [LYNetManager ly_setValue:@"application/x-www-form-urlencoded" forHTTPHeaderKey:@"Content-Type"];
     LYNetManagerShare.requestSerializer = LYHttpRequestSerializerHTTP;
-    LYNetManagerShare.responseSerializer = LYHttpResponseSerializerHTTP;
+    LYNetManagerShare.responseSerializer = LYHttpResponseSerializerJSON;
 }
 
 + (void)ly_setTyWithJson
