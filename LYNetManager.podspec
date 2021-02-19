@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LYNetManager"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "基于AFNetworking 4.0 最新版本的封装"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                      适配最新版 AFN 4.0
+                      2021-02-19，适配最新版 AFN 4.0
                    DESC
 
   spec.homepage     = "https://github.com/LY-Mu/LYNetManager"
