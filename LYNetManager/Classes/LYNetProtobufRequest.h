@@ -1,5 +1,5 @@
 //
-//  LYNetManager+Protobuf.h
+//  LYNetProtobufRequest.h
 //  Example
 //
 //  Created by mu on 2021/2/19.
@@ -8,7 +8,7 @@
 
 #import "LYNetManager.h"
 
-@interface LYNetManager (Protobuf)
+@interface LYNetProtobufRequest : LYNetManager
 
 + (LYURLSessionTask *)ly_protobufGet:(NSString *)url parameters:(NSDictionary *)params headers:(NSDictionary *)headers successBlock:(LYResponseSuccessBlock)successBlock
       failureBlock:(LYResponseFailBlock)failureBlock;

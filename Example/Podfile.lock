@@ -14,28 +14,21 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - LYNetManager (0.0.1):
-    - AFNetworking
-    - YYCache
   - YYCache (1.0.4)
 
 DEPENDENCIES:
-  - LYNetManager (from `../`)
+  - AFNetworking (~> 4.0.1)
+  - YYCache (~> 1.0.4)
 
 SPEC REPOS:
   trunk:
     - AFNetworking
     - YYCache
 
-EXTERNAL SOURCES:
-  LYNetManager:
-    :path: "../"
-
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  LYNetManager: 0d33ccd483c319ae2d45fd48a9f36f2371c16378
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 214547e6f50bf05ccbcd2327b14f6d3a7ed49f31
+PODFILE CHECKSUM: 2af5812edcbdf3a714ae86b0ef30b3f6dd932040
 
 COCOAPODS: 1.10.1

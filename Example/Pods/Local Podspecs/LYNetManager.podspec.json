@@ -1,8 +1,8 @@
 {
   "name": "LYNetManager",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "summary": "基于AFNetworking 4.0 最新版本的封装",
-  "description": "适配最新版 AFN 4.0",
+  "description": "2021-02-19，适配最新版 AFN 4.0",
   "homepage": "https://github.com/LY-Mu/LYNetManager",
   "license": {
     "type": "MIT",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/LY-Mu/LYNetManager.git",
-    "tag": "0.0.1"
+    "tag": "0.0.5"
   },
   "source_files": [
     "LYNetManager/Classes",

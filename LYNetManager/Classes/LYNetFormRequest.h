@@ -1,5 +1,5 @@
 //
-//  LYNetManager+Form.h
+//  LYNetFormRequest.h
 //  Example
 //
 //  Created by mu on 2021/2/19.
@@ -8,8 +8,9 @@
 
 #import "LYNetManager.h"
 
-/// 此类请求头是 表单提交
-@interface LYNetManager (Form)
+NS_ASSUME_NONNULL_BEGIN
+
+@interface LYNetFormRequest : LYNetManager
 
 + (LYURLSessionTask *)ly_formGet:(NSString *)url parameters:(NSDictionary *)params headers:(NSDictionary *)headers successBlock:(LYResponseSuccessBlock)successBlock
       failureBlock:(LYResponseFailBlock)failureBlock;
@@ -17,5 +18,6 @@
 + (LYURLSessionTask *)ly_formPost:(NSString *)url parameters:(NSDictionary *)params headers:(NSDictionary *)headers successBlock:(LYResponseSuccessBlock)successBlock
        failureBlock:(LYResponseFailBlock)failureBlock;
 
-
 @end
+
+NS_ASSUME_NONNULL_END

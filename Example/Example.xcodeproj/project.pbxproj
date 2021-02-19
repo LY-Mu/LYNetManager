@@ -14,6 +14,18 @@
 		8E4D41B725DF77CA00284239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4D41B625DF77CA00284239 /* Assets.xcassets */; };
 		8E4D41BA25DF77CA00284239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4D41B825DF77CA00284239 /* LaunchScreen.storyboard */; };
 		8E4D41BD25DF77CA00284239 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D41BC25DF77CA00284239 /* main.m */; };
+		8E4D422925DFC30800284239 /* LYNetManagerCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D421025DFC30800284239 /* LYNetManagerCache.m */; };
+		8E4D422A25DFC30800284239 /* LYStringUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D421125DFC30800284239 /* LYStringUitil.m */; };
+		8E4D422B25DFC30800284239 /* LYNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D421425DFC30800284239 /* LYNetManager.m */; };
+		8E4D422D25DFC30800284239 /* LYHTTPRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D421825DFC30800284239 /* LYHTTPRequestSerializer.m */; };
+		8E4D422E25DFC30800284239 /* LYDispatchCenterUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D421F25DFC30800284239 /* LYDispatchCenterUitil.m */; };
+		8E4D422F25DFC30800284239 /* LYNetManager+Protobuf.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D422125DFC30800284239 /* LYNetManager+Protobuf.m */; };
+		8E4D423025DFC30800284239 /* UIImage+LYCompressImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D422225DFC30800284239 /* UIImage+LYCompressImage.m */; };
+		8E4D423125DFC30800284239 /* LYQuickCacheUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D422425DFC30800284239 /* LYQuickCacheUitil.m */; };
+		8E4D423225DFC30800284239 /* LYDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D422725DFC30800284239 /* LYDataEntity.m */; };
+		8E4D423325DFC30800284239 /* LYHTTPResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D422825DFC30800284239 /* LYHTTPResponseSerializer.m */; };
+		8EFDF16B25DFC54800E62647 /* LYNetFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDF16A25DFC54800E62647 /* LYNetFormRequest.m */; };
+		8EFDF16E25DFC66300E62647 /* LYNetProtobufRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDF16D25DFC66300E62647 /* LYNetProtobufRequest.m */; };
 		B014BB71547C9371D9807905 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34D35058767AB39D4863854 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +44,33 @@
 		8E4D41B925DF77CA00284239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E4D41BB25DF77CA00284239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E4D41BC25DF77CA00284239 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E4D420F25DFC30800284239 /* LYDispatchCenterUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDispatchCenterUitil.h; sourceTree = "<group>"; };
+		8E4D421025DFC30800284239 /* LYNetManagerCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNetManagerCache.m; sourceTree = "<group>"; };
+		8E4D421125DFC30800284239 /* LYStringUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYStringUitil.m; sourceTree = "<group>"; };
+		8E4D421225DFC30800284239 /* LYDispatchMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDispatchMacrocDefine.h; sourceTree = "<group>"; };
+		8E4D421325DFC30800284239 /* LYStringMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYStringMacrocDefine.h; sourceTree = "<group>"; };
+		8E4D421425DFC30800284239 /* LYNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNetManager.m; sourceTree = "<group>"; };
+		8E4D421625DFC30800284239 /* UIImage+LYCompressImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LYCompressImage.h"; sourceTree = "<group>"; };
+		8E4D421825DFC30800284239 /* LYHTTPRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHTTPRequestSerializer.m; sourceTree = "<group>"; };
+		8E4D421925DFC30800284239 /* LYQuickCacheUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQuickCacheUitil.h; sourceTree = "<group>"; };
+		8E4D421A25DFC30800284239 /* LYHTTPResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHTTPResponseSerializer.h; sourceTree = "<group>"; };
+		8E4D421B25DFC30800284239 /* LYDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDataEntity.h; sourceTree = "<group>"; };
+		8E4D421C25DFC30800284239 /* LYStringUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYStringUitil.h; sourceTree = "<group>"; };
+		8E4D421D25DFC30800284239 /* LYQuickCacheMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQuickCacheMacrocDefine.h; sourceTree = "<group>"; };
+		8E4D421E25DFC30800284239 /* LYNetManagerCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNetManagerCache.h; sourceTree = "<group>"; };
+		8E4D421F25DFC30800284239 /* LYDispatchCenterUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDispatchCenterUitil.m; sourceTree = "<group>"; };
+		8E4D422125DFC30800284239 /* LYNetManager+Protobuf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LYNetManager+Protobuf.m"; sourceTree = "<group>"; };
+		8E4D422225DFC30800284239 /* UIImage+LYCompressImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LYCompressImage.m"; sourceTree = "<group>"; };
+		8E4D422325DFC30800284239 /* LYNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNetManager.h; sourceTree = "<group>"; };
+		8E4D422425DFC30800284239 /* LYQuickCacheUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQuickCacheUitil.m; sourceTree = "<group>"; };
+		8E4D422525DFC30800284239 /* LYHTTPRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHTTPRequestSerializer.h; sourceTree = "<group>"; };
+		8E4D422625DFC30800284239 /* LYNetManagerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNetManagerHeader.h; sourceTree = "<group>"; };
+		8E4D422725DFC30800284239 /* LYDataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDataEntity.m; sourceTree = "<group>"; };
+		8E4D422825DFC30800284239 /* LYHTTPResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHTTPResponseSerializer.m; sourceTree = "<group>"; };
+		8EFDF16925DFC54800E62647 /* LYNetFormRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYNetFormRequest.h; sourceTree = "<group>"; };
+		8EFDF16A25DFC54800E62647 /* LYNetFormRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNetFormRequest.m; sourceTree = "<group>"; };
+		8EFDF16C25DFC66300E62647 /* LYNetProtobufRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYNetProtobufRequest.h; sourceTree = "<group>"; };
+		8EFDF16D25DFC66300E62647 /* LYNetProtobufRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNetProtobufRequest.m; sourceTree = "<group>"; };
 		B34D35058767AB39D4863854 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -68,6 +107,7 @@
 		8E4D41A925DF77C700284239 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				8E4D420D25DFC30800284239 /* LYNetManager */,
 				8E4D41AA25DF77C700284239 /* AppDelegate.h */,
 				8E4D41AB25DF77C700284239 /* AppDelegate.m */,
 				8E4D41AD25DF77C700284239 /* SceneDelegate.h */,
@@ -81,6 +121,49 @@
 				8E4D41BC25DF77CA00284239 /* main.m */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		8E4D420D25DFC30800284239 /* LYNetManager */ = {
+			isa = PBXGroup;
+			children = (
+				8E4D420E25DFC30800284239 /* Classes */,
+			);
+			name = LYNetManager;
+			path = ../../LYNetManager;
+			sourceTree = "<group>";
+		};
+		8E4D420E25DFC30800284239 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E4D420F25DFC30800284239 /* LYDispatchCenterUitil.h */,
+				8E4D421025DFC30800284239 /* LYNetManagerCache.m */,
+				8E4D421125DFC30800284239 /* LYStringUitil.m */,
+				8E4D421225DFC30800284239 /* LYDispatchMacrocDefine.h */,
+				8E4D421325DFC30800284239 /* LYStringMacrocDefine.h */,
+				8E4D421425DFC30800284239 /* LYNetManager.m */,
+				8E4D421625DFC30800284239 /* UIImage+LYCompressImage.h */,
+				8E4D421825DFC30800284239 /* LYHTTPRequestSerializer.m */,
+				8E4D421925DFC30800284239 /* LYQuickCacheUitil.h */,
+				8E4D421A25DFC30800284239 /* LYHTTPResponseSerializer.h */,
+				8E4D421B25DFC30800284239 /* LYDataEntity.h */,
+				8E4D421C25DFC30800284239 /* LYStringUitil.h */,
+				8E4D421D25DFC30800284239 /* LYQuickCacheMacrocDefine.h */,
+				8E4D421E25DFC30800284239 /* LYNetManagerCache.h */,
+				8E4D421F25DFC30800284239 /* LYDispatchCenterUitil.m */,
+				8EFDF16925DFC54800E62647 /* LYNetFormRequest.h */,
+				8EFDF16A25DFC54800E62647 /* LYNetFormRequest.m */,
+				8EFDF16C25DFC66300E62647 /* LYNetProtobufRequest.h */,
+				8EFDF16D25DFC66300E62647 /* LYNetProtobufRequest.m */,
+				8E4D422125DFC30800284239 /* LYNetManager+Protobuf.m */,
+				8E4D422225DFC30800284239 /* UIImage+LYCompressImage.m */,
+				8E4D422325DFC30800284239 /* LYNetManager.h */,
+				8E4D422425DFC30800284239 /* LYQuickCacheUitil.m */,
+				8E4D422525DFC30800284239 /* LYHTTPRequestSerializer.h */,
+				8E4D422625DFC30800284239 /* LYNetManagerHeader.h */,
+				8E4D422725DFC30800284239 /* LYDataEntity.m */,
+				8E4D422825DFC30800284239 /* LYHTTPResponseSerializer.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		A697C60B5CEA2C900427C19B /* Frameworks */ = {
@@ -111,7 +194,7 @@
 				8E4D41A325DF77C700284239 /* Sources */,
 				8E4D41A425DF77C700284239 /* Frameworks */,
 				8E4D41A525DF77C700284239 /* Resources */,
-				A666555F1E0AAD2BB53AA578 /* [CP] Embed Pods Frameworks */,
+				FC85AE4E265FA567B15DB7B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,7 +273,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A666555F1E0AAD2BB53AA578 /* [CP] Embed Pods Frameworks */ = {
+		FC85AE4E265FA567B15DB7B5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,9 +298,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E4D41B225DF77C700284239 /* ViewController.m in Sources */,
+				8E4D422D25DFC30800284239 /* LYHTTPRequestSerializer.m in Sources */,
+				8E4D423125DFC30800284239 /* LYQuickCacheUitil.m in Sources */,
+				8E4D423325DFC30800284239 /* LYHTTPResponseSerializer.m in Sources */,
+				8E4D422B25DFC30800284239 /* LYNetManager.m in Sources */,
 				8E4D41AC25DF77C700284239 /* AppDelegate.m in Sources */,
 				8E4D41BD25DF77CA00284239 /* main.m in Sources */,
+				8E4D422A25DFC30800284239 /* LYStringUitil.m in Sources */,
+				8E4D422E25DFC30800284239 /* LYDispatchCenterUitil.m in Sources */,
+				8EFDF16B25DFC54800E62647 /* LYNetFormRequest.m in Sources */,
+				8E4D423025DFC30800284239 /* UIImage+LYCompressImage.m in Sources */,
+				8E4D422F25DFC30800284239 /* LYNetManager+Protobuf.m in Sources */,
 				8E4D41AF25DF77C700284239 /* SceneDelegate.m in Sources */,
+				8E4D422925DFC30800284239 /* LYNetManagerCache.m in Sources */,
+				8EFDF16E25DFC66300E62647 /* LYNetProtobufRequest.m in Sources */,
+				8E4D423225DFC30800284239 /* LYDataEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

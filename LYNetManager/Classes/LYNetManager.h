@@ -111,7 +111,12 @@ typedef NSURLSessionTask LYURLSessionTask;
  是否开启 log 打印，默认不开启
  */
 @property(nonatomic, assign) BOOL isOpenLog;
-
+/// 表单_baseurl   都不以 `/` 结尾
+@property (nonatomic, copy) NSString *formBaseUrl;
+/// protobuf_baseurl
+@property (nonatomic, copy) NSString *protobufBaseUrl;
+/// json 提交的 url
+@property (nonatomic, copy) NSString *tyJsonBaseUrl;
 /*!
  *  获得全局唯一的网络请求实例单例方法
  *
@@ -268,5 +273,9 @@ typedef NSURLSessionTask LYURLSessionTask;
  清空缓存：此方法可能会阻止调用线程，直到文件删除完成。
  */
 - (void)ly_clearAllHttpCache;
+
+/// 根据所传入的url 返回请求url 如果为api. 则不以 '/' 开头
+/// @param url 可以包含 http/s 若包含则直接返回 否则会拼接对应的url
+- (NSString *)getHttpUrl:(NSString *)url;
 
 @end
