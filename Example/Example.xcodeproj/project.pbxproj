@@ -19,7 +19,6 @@
 		8E4D422B25DFC30800284239 /* LYNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D421425DFC30800284239 /* LYNetManager.m */; };
 		8E4D422D25DFC30800284239 /* LYHTTPRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D421825DFC30800284239 /* LYHTTPRequestSerializer.m */; };
 		8E4D422E25DFC30800284239 /* LYDispatchCenterUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D421F25DFC30800284239 /* LYDispatchCenterUitil.m */; };
-		8E4D422F25DFC30800284239 /* LYNetManager+Protobuf.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D422125DFC30800284239 /* LYNetManager+Protobuf.m */; };
 		8E4D423025DFC30800284239 /* UIImage+LYCompressImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D422225DFC30800284239 /* UIImage+LYCompressImage.m */; };
 		8E4D423125DFC30800284239 /* LYQuickCacheUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D422425DFC30800284239 /* LYQuickCacheUitil.m */; };
 		8E4D423225DFC30800284239 /* LYDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D422725DFC30800284239 /* LYDataEntity.m */; };
@@ -59,7 +58,6 @@
 		8E4D421D25DFC30800284239 /* LYQuickCacheMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQuickCacheMacrocDefine.h; sourceTree = "<group>"; };
 		8E4D421E25DFC30800284239 /* LYNetManagerCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNetManagerCache.h; sourceTree = "<group>"; };
 		8E4D421F25DFC30800284239 /* LYDispatchCenterUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDispatchCenterUitil.m; sourceTree = "<group>"; };
-		8E4D422125DFC30800284239 /* LYNetManager+Protobuf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LYNetManager+Protobuf.m"; sourceTree = "<group>"; };
 		8E4D422225DFC30800284239 /* UIImage+LYCompressImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LYCompressImage.m"; sourceTree = "<group>"; };
 		8E4D422325DFC30800284239 /* LYNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNetManager.h; sourceTree = "<group>"; };
 		8E4D422425DFC30800284239 /* LYQuickCacheUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQuickCacheUitil.m; sourceTree = "<group>"; };
@@ -154,7 +152,6 @@
 				8EFDF16A25DFC54800E62647 /* LYNetFormRequest.m */,
 				8EFDF16C25DFC66300E62647 /* LYNetProtobufRequest.h */,
 				8EFDF16D25DFC66300E62647 /* LYNetProtobufRequest.m */,
-				8E4D422125DFC30800284239 /* LYNetManager+Protobuf.m */,
 				8E4D422225DFC30800284239 /* UIImage+LYCompressImage.m */,
 				8E4D422325DFC30800284239 /* LYNetManager.h */,
 				8E4D422425DFC30800284239 /* LYQuickCacheUitil.m */,
@@ -308,7 +305,6 @@
 				8E4D422E25DFC30800284239 /* LYDispatchCenterUitil.m in Sources */,
 				8EFDF16B25DFC54800E62647 /* LYNetFormRequest.m in Sources */,
 				8E4D423025DFC30800284239 /* UIImage+LYCompressImage.m in Sources */,
-				8E4D422F25DFC30800284239 /* LYNetManager+Protobuf.m in Sources */,
 				8E4D41AF25DF77C700284239 /* SceneDelegate.m in Sources */,
 				8E4D422925DFC30800284239 /* LYNetManagerCache.m in Sources */,
 				8EFDF16E25DFC66300E62647 /* LYNetProtobufRequest.m in Sources */,
