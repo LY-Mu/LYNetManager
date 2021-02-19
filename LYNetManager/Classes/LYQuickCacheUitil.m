@@ -9,6 +9,7 @@
 #import "LYQuickCacheUitil.h"
 #import "LYQuickCacheMacrocDefine.h"
 #import "LYDispatchMacrocDefine.h"
+#import "LYStringMacrocDefine.h"
 #import <YYCache/YYCache.h>
 
 static NSString * const kLYQuickCache = @"kLYQuickCache";
