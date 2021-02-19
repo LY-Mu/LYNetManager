@@ -8,6 +8,7 @@
 
 #import "LYStringUitil.h"
 #import "LYStringMacrocDefine.h"
+#import "LYQuickCacheMacrocDefine.h"
 #import <CommonCrypto/CommonDigest.h>
 
 #define FileHashDefaultChunkSizeForReadingData 1024*8
