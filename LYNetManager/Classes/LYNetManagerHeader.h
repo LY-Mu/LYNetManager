@@ -10,5 +10,8 @@
 #define LYNetManagerHeader_h
 
 #import "LYNetManager.h"
+#import "LYStringMacrocDefine.h"
+#import "LYDispatchMacrocDefine.h"
+#import "LYQuickCacheMacrocDefine.h"
 
 #endif /* LYNetManagerHeader_h */
