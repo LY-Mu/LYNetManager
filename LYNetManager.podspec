@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LYNetManager"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "基于AFNetworking 4.0 最新版本的封装"
 
   # This description is used to generate tags and improve search results.
