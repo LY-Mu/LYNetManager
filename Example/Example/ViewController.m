@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the  view.
     [LYNetManager ly_request_GETWithEntity:nil successBlock:^(id response) {
         
     } failureBlock:^(NSError *error) {
