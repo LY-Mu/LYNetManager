@@ -859,24 +859,27 @@ static NSMutableArray *tasks;
 
 + (void)ly_setHallWithForm_urlencoded
 {
-    [LYNetManager ly_setValue:@"*/*" forHTTPHeaderKey:@"Accept"];
-    [LYNetManager ly_setValue:@"application/x-www-form-urlencoded" forHTTPHeaderKey:@"Content-Type"];
     LYNetManagerShare.requestSerializer = LYHttpRequestSerializerHTTP;
     LYNetManagerShare.responseSerializer = LYHttpResponseSerializerJSON;
+    
+    [LYNetManager ly_setValue:@"*/*" forHTTPHeaderKey:@"Accept"];
+    [LYNetManager ly_setValue:@"application/x-www-form-urlencoded" forHTTPHeaderKey:@"Content-Type"];
 }
 
 + (void)ly_setTyWithJson
 {
-    
+    LYNetManagerShare.requestSerializer = LYHttpRequestSerializerJSON;
+    LYNetManagerShare.responseSerializer = LYHttpResponseSerializerJSON;
+    [LYNetManager ly_setValue:@"application/json" forHTTPHeaderKey:@"Accept"]; // application/json text/javascript **/*//*; q=0.01
+    [LYNetManager ly_setValue:@"application/json" forHTTPHeaderKey:@"Content-Type"]; //application/json; charset=utf-8
 }
 
 + (void)ly_setRedPackWithProtobuf
 {
-    [LYNetManager ly_setValue:@"application/x-protobuf" forHTTPHeaderKey:@"Accept"];
-    [LYNetManager ly_setValue:@"application/x-protobuf" forHTTPHeaderKey:@"Content-Type"];
-    
     LYNetManagerShare.requestSerializer = LYHttpRequestSerializerProtobuf;
     LYNetManagerShare.responseSerializer = LYHttpResponseSerializerProtobuf;
+    [LYNetManager ly_setValue:@"application/x-protobuf" forHTTPHeaderKey:@"Accept"];
+    [LYNetManager ly_setValue:@"application/x-protobuf" forHTTPHeaderKey:@"Content-Type"];
 }
 
 /**

@@ -69,6 +69,7 @@
 		8EFDF16A25DFC54800E62647 /* LYNetFormRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNetFormRequest.m; sourceTree = "<group>"; };
 		8EFDF16C25DFC66300E62647 /* LYNetProtobufRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYNetProtobufRequest.h; sourceTree = "<group>"; };
 		8EFDF16D25DFC66300E62647 /* LYNetProtobufRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNetProtobufRequest.m; sourceTree = "<group>"; };
+		8EFDF1E225E0CBD400E62647 /* LYToolHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYToolHeader.h; sourceTree = "<group>"; };
 		B34D35058767AB39D4863854 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -133,12 +134,12 @@
 		8E4D420E25DFC30800284239 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8EFDF1E225E0CBD400E62647 /* LYToolHeader.h */,
 				8E4D420F25DFC30800284239 /* LYDispatchCenterUitil.h */,
 				8E4D421025DFC30800284239 /* LYNetManagerCache.m */,
 				8E4D421125DFC30800284239 /* LYStringUitil.m */,
 				8E4D421225DFC30800284239 /* LYDispatchMacrocDefine.h */,
 				8E4D421325DFC30800284239 /* LYStringMacrocDefine.h */,
-				8E4D421425DFC30800284239 /* LYNetManager.m */,
 				8E4D421625DFC30800284239 /* UIImage+LYCompressImage.h */,
 				8E4D421825DFC30800284239 /* LYHTTPRequestSerializer.m */,
 				8E4D421925DFC30800284239 /* LYQuickCacheUitil.h */,
@@ -154,6 +155,7 @@
 				8EFDF16D25DFC66300E62647 /* LYNetProtobufRequest.m */,
 				8E4D422225DFC30800284239 /* UIImage+LYCompressImage.m */,
 				8E4D422325DFC30800284239 /* LYNetManager.h */,
+				8E4D421425DFC30800284239 /* LYNetManager.m */,
 				8E4D422425DFC30800284239 /* LYQuickCacheUitil.m */,
 				8E4D422525DFC30800284239 /* LYHTTPRequestSerializer.h */,
 				8E4D422625DFC30800284239 /* LYNetManagerHeader.h */,
